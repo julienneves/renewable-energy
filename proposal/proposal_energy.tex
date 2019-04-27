@@ -1,0 +1,112 @@
+% Class Notes Template
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+
+% Packages
+\usepackage{amsmath, amsthm, amssymb ,amsfonts, graphics, tikz, float, enumerate}
+\usepackage{listings,verbatim, setspace, siunitx,booktabs}
+\usepackage{natbib}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespace\vspace{-\topsep}\small}
+\AtEndEnvironment{quote}{\vspace{-\topsep}\endsinglespace}
+
+\onehalfspacing
+
+% Title
+\title{Proposal: Transmission and Renewable Energy}
+\date{\today}
+\author{Julien Neves}
+
+% Use these for theorems, lemmas, proofs, etc.
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{set-up}[theorem]{Set-up}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{axiom}[theorem]{Axiom}
+
+% Usefuls Macros
+\newcommand{\field}[1]{\mathbb{#1}}
+\newcommand{\N}{\field{N}} % natural numbers
+\newcommand{\R}{\field{R}} % real numbers
+\newcommand{\Z}{\field{Z}} % integers
+\newcommand\F{\mathcal{F}}
+\newcommand\B{\mathbb{B}}
+\renewcommand{\Re}{\R} % reals
+\newcommand{\Rn}[1]{\mathbb{R}^{#1}}
+\newcommand{\1}{{\bf 1}} % vector of all 1's
+\newcommand{\I}[1]{\mathbb{I}_{\left\{#1\right\}}} % indicator function
+\newcommand{\La}{\mathscr{L}}
+% \newcommand{\tends}{{\rightarrow}} % arrow for limits
+% \newcommand{\ra}{{\rightarrow}} % abbreviation for right arrow
+% \newcommand{\subjectto}{\mbox{\rm subject to}} % subject to
+
+%% math operators
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\maximize}{maximize}
+\DeclareMathOperator*{\minimize}{minimize}
+\DeclareMathOperator{\E}{\mathbb{E}} % expectation
+\newcommand{\Ex}[1]{\E\left\{#1\right\}} % expectation with brackets
+\DeclareMathOperator{\pr}{\mathsf{P}} % probability
+\newcommand{\prob}[1]{\pr\left\{#1\right\}}
+\DeclareMathOperator{\subjectto}{{s.t.\ }} % subject to
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\card}[1]{\left|#1\right|}
+
+% Extra stuff
+\newcommand\seq[1]{\{ #1 \}}
+\newcommand{\inp}[2]{\langle #1, #2 \rangle}
+
+\newcommand{\inv}{^{-1}}
+
+\newcommand{\pa}[1]{\left(#1\right)}
+\newcommand{\bra}[1]{\left[#1\right]}
+\newcommand{\cbra}[1]{\left\{ #1 \right\}}
+
+\newcommand{\pfrac}[2]{\pa{\frac{#1}{#2}}}
+\newcommand{\bfrac}[2]{\bra{\frac{#1}{#2}}}
+
+\newcommand{\mat}[1]{\begin{matrix}#1\end{matrix}}
+\newcommand{\pmat}[1]{\pa{\mat{#1}}}
+\newcommand{\bmat}[1]{\bra{\mat{#1}}}
+
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Motivation}
+%• Clearly state the question you would like to study.
+%• How is it connected to the industrial organization literature?
+%• Why is it important? Does it have implications for policy?
+
+\subsection{Literature Review}
+%• What are the major papers on this topic and what do they say?
+%• Is there one paper your idea is particularly connected or close to?
+%• What is novel about your idea relative to the literature?
+
+\section{Theory and empirical strategy}
+
+\section{Data}
+
+\section{Conclusion}
+
+\bibliographystyle{aea}
+\bibliography{bibliography}
+
+
+\end{document}
